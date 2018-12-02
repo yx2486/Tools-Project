@@ -21,5 +21,6 @@
 ## How to Use:
 **Important Documentation:**
 https://www.datascience.com/blog/k-means-clustering
+
 *Sample code and output:*
 
