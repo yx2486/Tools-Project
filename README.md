@@ -8,10 +8,18 @@
 1. Compute the proximity matrix based on data provided
 2. Let each data point be a cluster
 3. **Repeat**: Merge the two closest clusters; Update the proximity matrix
-4. **Until** only a single cluster remains
+4. **Until**: only a single cluster remains
+
+## Basic Algorithm of K-Means Clustering:
+1. Initialize k points, called clusters, randomly.
+2. Calculate the centroid of each cluster.
+3. Assign each item to its closest cluster based on the distance between each centroid and item.
+4. **Repeat**: Repeat the process for a given number of iterations, moving items and at the end, we have our clusters.
+5. **Until**: classify each item to its closest cluster
+
 
 ## How to Use:
 **Important Documentation:**
-
+https://www.datascience.com/blog/k-means-clustering
 *Sample code and output:*
 
