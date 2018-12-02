@@ -2,7 +2,7 @@
 ***Section 002: Yuan Xin, Hanjiao Zhang, Yuanqi Gai***
 
 ## Description:
-***Clustering*** is a simple python library that could perform Hierachical Clustering. It could easily create different clusters from a list of data provided. In this package, three types of linkages can be performed, which are "single", "complete" and "average".
+***Clustering*** is a simple python library that could perform Hierachical Clustering. It could easily create different clusters from a list of data provided. In this package, two types of linkages can be performed, which are "single" and "complete". "sinlge" returns the distance of two closest points and "complete" returns the distance of two farthest points.
 
 ## Basic Algorithm of Hierachical Clustering:
 1. Compute the proximity matrix based on data provided
@@ -17,10 +17,9 @@
 4. **Repeat**: Repeat the process for a given number of iterations, moving items and at the end, we have our clusters.
 5. **Until**: classify each item to its closest cluster
 
-
-## How to Use:
 **Important Documentation:**
 https://www.datascience.com/blog/k-means-clustering
 
+## How to Use:
 *Sample code and output:*
 
