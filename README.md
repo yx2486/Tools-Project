@@ -21,5 +21,25 @@
 https://www.datascience.com/blog/k-means-clustering
 
 ## How to Use:
-*Sample code and output:*
+**Note:** 
+Please place your python file in the same directory as our library
 
+**Sample code and output:**
+
+* Hierarchical Clustering
+```python
+>>> from Hierarchical_Clustering import *              # To import the library
+```
+EX 1. To get clusters of data with distance closer than 5 using single linkage method
+  
+```python
+>>> data = [5,6,10,1,18]
+>>> HierarchicalClustering(data,single).distance(5)
+[[18], [1, 10, 5, 6]]
+```
+EX 2. To get clusters of data with distance closer than 5 using complete linkage method
+```python
+>>> data = [5,6,10,1,18]
+>>> HierarchicalClustering(data,complete).distance(5)
+[[18], [1], [10, 5, 6]]
+```
