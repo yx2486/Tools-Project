@@ -13,18 +13,15 @@
 4. **Until**: only a single cluster remains
 
 ## Basic Algorithm of K-Means Clustering:
-1. Initialize k points, called clusters, randomly.
-2. Calculate the centroid of each cluster.
-3. Assign each item to its closest cluster based on the distance between each centroid and item.
-4. **Repeat**: Repeat the process for a given number of iterations, moving items and at the end, we have our clusters.
+1. Initialize k points, called clusters, randomly
+2. Calculate the centroid of each cluster
+3. Assign each item to its closest cluster based on the distance between each centroid and item
+4. **Repeat**: Repeat the process for a given number of iterations, moving items and at the end, we have our clusters
 5. **Until**: classify each item to its closest cluster
-
-**Important Documentation:**
-https://www.datascience.com/blog/k-means-clustering
 
 ## How to Use:
 **Note:** 
-Please place your python file in the same directory as our library
+Please place your python file in the same directory as our libraries
 
 **Sample code and output:**
 
