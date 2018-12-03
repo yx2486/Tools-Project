@@ -1,8 +1,8 @@
-# Tools Project: Clustering Methods
+# Tools for Analytics Project: Clustering Methods
 ***Section 002: Yuan Xin, Hanjiao Zhang, Yuanqi Gai***
 
 ## Description:
-***Clustering*** is a simple python library that could perform Hierachical Clustering. It could easily create different clusters from a list of data provided. In this package, two types of linkages can be performed, which are "single" and "complete". "sinlge" returns the distance of two closest points and "complete" returns the distance of two farthest points.
+***Hierarchical Clustering*** is a simple python library that could perform Hierachical Clustering. It could easily create different clusters from a list of data provided. In this package, two types of linkages can be performed, which are "single" and "complete". "sinlge" returns the distance of two closest points and "complete" returns the distance of two farthest points.
 
 ***K-Means Clustering*** is to find clusters in the data, with the number of clusters represented by the variable K. The algorithm works iteratively to assign each data point to one of K groups in which each point belongs to the cluster with the nearest mean based on the features that are provided.
 
@@ -45,3 +45,14 @@ EX 2. To get clusters of data with distance closer than 5 using complete linkage
 >>> HierarchicalClustering(data,complete).distance(5)
 [[18], [1], [10, 5, 6]]
 ```
+* K-Means Clustering
+```python
+>>> from Kmeans_Clustering import *                    # To import the library
+```
+To reallocate the data into 2 clusters using euclidean distance calculation
+```python
+>>> data = [(1,7),(3,2),(10,6),(7,0),(36,6)]
+>>> KMeansClustering(data).getclusters(2)
+[[(36, 6)], [(3, 2), (7, 0), (1, 7), (10, 6)]]
+```
+
