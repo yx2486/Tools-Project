@@ -53,7 +53,7 @@ class KMeansClustering():
             
         return result
     
-    # Move item(tuple) from one cluster to anoter
+    # Move item(tuple) from one cluster to another
     def change_cluster(self, item, original_cluster, new_cluster):
         item_index = original_cluster.index(item)
         new_cluster.append(original_cluster.pop(item_index))
